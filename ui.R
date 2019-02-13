@@ -1,4 +1,7 @@
 library(shinythemes)
+
+
+
 ui <- fluidPage( theme=shinytheme("cosmo"),
   titlePanel("Bedrock Stat Analytics"),
   navbarPage("Get Started!",
@@ -13,7 +16,7 @@ ui <- fluidPage( theme=shinytheme("cosmo"),
                         
                         actionButton("button_login", "Login"),
                         br(),
-                        "Please try 'user1' with password '123' or 'user2' with password '456' to log in.",
+                        "For Upwork Client",
                         hr(),
                         strong(textOutput("verification_result"))
                       )
