@@ -11,7 +11,6 @@ library(rmarkdown)
 library(latexpdf)
 
 
-
 shinyServer(function(input, output, session) {
   
   current_user_status <- reactiveValues()
